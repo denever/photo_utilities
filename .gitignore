@@ -1,0 +1,28 @@
+# This is the common part between all viralize repos
+# Python
+**/__pycache__/
+**/*.py[cod]
+./test_output
+htmlcov
+
+# Editors and backups
+.project
+.vscode/
+.idea/
+*~
+\#*#
+.#*
+*.bak
+.dir-locals.el
+
+# Mac
+.DS_Store
+
+# Zips
+*.tar.gz
+*.swp
+
+# This is the customized part for the app
+google_calculator/*.json
+google_calculator/*.csv
+data/
